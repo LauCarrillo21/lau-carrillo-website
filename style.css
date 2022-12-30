@@ -9,11 +9,36 @@ body {
     font-family:  'Quicksand', sans-serif;
 }
 
-/* h1 {
-    font-size: 75px;
+
+.index-container h1 {
+    font-size: 70px;
     font-weight: 700;
-    color: var(--branding-color);
+    text-align: center;
+    padding: 50px;
+    /* color: var(--branding-color); */
+}
+
+/* .spanish {
+
 } */
+
+.index-button a {
+    font-size: 25px;
+    text-decoration: none;
+    color:white;
+    background-color:black;
+    padding:10px;
+    border-radius:25px;
+    transition: all 200ms ease-in-out;
+    margin: 10px;
+}
+
+.index-button a:hover {
+    background-color: white;
+    color:black;
+    cursor: pointer;
+    border: 1px solid black;
+}
 
 /* h2 {
     font-size: 40px;
@@ -26,13 +51,13 @@ body {
 } */
 
 .log {
-    max-width: 80px;
+    max-width: 70px;
     border-radius: 50px;
 }
 
-.logo {
+/* .logo {
     border-radius: 50px;
-}
+} */
 
 nav {
     padding: 20px 0;
@@ -48,17 +73,33 @@ nav li {
     list-style: none;
     margin:0;
     padding:0;
-    margin-left: 15px;
+    margin-left: 35px;
 }
 
 nav a {
     text-decoration: none;
     color:var(--btn-color);
     transition: all 200ms ease-in-out;
+    font-size: 20px;
 }
 
 nav a:hover{
-    color:#FBD6D2;
+    color:#a2a0a2;
+}
+
+.resources {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    transition: all 200ms ease-in-out;
+}
+
+.resources:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border:1px solid black;
 }
 
 .active{
@@ -67,7 +108,7 @@ nav a:hover{
 
 main {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/merida.jpg");
+    url("./src/main.png");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -76,7 +117,7 @@ main {
 }
 
 main h1 {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 96px;
     line-height: 1;
     margin: 30px 0;
@@ -115,7 +156,7 @@ main a {
 }
 
 main a:hover {
-    background:#251625 ;
+    background:#000000 ;
     color: white;
     cursor: pointer;
 }
