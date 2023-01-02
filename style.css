@@ -179,7 +179,28 @@ main a:hover {
 
 /* Get to know me section */
 
+.get-to-know {
+    background-color: #1E1D1D;
+}
 
+.social-links a {
+    margin:0 20px;
+    color: #FAF2F2;
+    background: var(--branding-color);
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 200ms ease-in-out;
+  
+}
+
+
+
+.social-links a:hover{
+   background: #FAF2F2;
+   color: #420516;
+  
+}
 
 
 /* @media  (max-width:900px) {
