@@ -277,6 +277,12 @@ footer {
     text-decoration: none;
 }
 
+/* Blog */
+.blog-main{
+    background-color:aqua;
+    padding: 200px 0;
+}
+
 
 /* @media  (max-width:900px) {
 
