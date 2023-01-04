@@ -278,9 +278,24 @@ footer {
 }
 
 /* Blog */
+.three-columns-blog {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-gap:15px;
+    padding:15px;
+}
+
 .blog-main{
-    background-color:aqua;
-    padding: 200px 0;
+    background-color:var(--section-color);
+    padding: 15px;
+}
+
+.blog-card {
+    background-color:#1E1D1D;
+    border-radius:10px;
+    color:var(--background-color);
+    width:200px;
+
 }
 
 
