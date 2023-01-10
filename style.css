@@ -337,6 +337,57 @@ footer {
     cursor: pointer;
 }
 
+/* Resources */
+
+.resources-main{
+    background-color:var(--accent-color);
+    padding: 15px;
+}
+
+.three-columns-resource {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:15px;
+    padding:15px;
+}
+
+
+.resource-card {
+    border-radius:10px;
+    width:200px;
+    padding: 10px;
+    transition: all 200ms ease-in-out;
+} 
+
+.test {
+    width:180px;
+    border-radius:4px;
+}
+
+.resource-title {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+} 
+
+.rsc-button {
+    text-align: center;
+    font-size:16px;
+    padding:5px;
+    display: block;
+    margin:0 auto;
+    background:var(--main-color);
+    color:var(--background-color);
+    border-radius:20px;
+    transition: all 200ms ease-in-out,
+}
+
+.rsc-button:hover {
+    color:var(--main-color);
+    background-color:var(--background-color);
+}
+
+
 
 /* @media  (max-width:900px) {
 
