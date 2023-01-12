@@ -199,7 +199,7 @@ main a:hover {
     background: var(--accent-color);
     padding:30px;
     border-radius:100px;
-    font-size:35px;
+    font-size:45px;
     transition: all 200ms ease-in-out;
     }
 
@@ -223,13 +223,14 @@ main a:hover {
     color:var(--accent-color);
     }
 
-.description p {
+.description p{
     color:var(--background-color);
     text-align: center;
     font-size: 18px;
     font-weight:100;
     padding: 10px;
 }
+
 
 /* Footer */
 .grid-3-columns {
@@ -386,19 +387,26 @@ footer {
 }
 
 
+/* Responsive */
 
-/* @media  (max-width:900px) {
+@media  (max-width:900px) {
+/* Navigation Bar */
+.log {
+    visibility: hidden;
+}
 
-    h1{
-        font-size: 60px;
-    }
 
-    h2 {
-        font-size: 35px;
-    }
+nav {
+    padding: 10px 0;
+}
 
-    nav a {
-        font-size: 14px;
-    }
+nav li {
+    margin-left:15px;
+}
 
-}  */
+nav a {
+    font-size: 12px;
+}
+
+
+} 
