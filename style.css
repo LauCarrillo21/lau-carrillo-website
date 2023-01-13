@@ -197,9 +197,9 @@ main a:hover {
     margin:0 50px;
     color: var(--second-section-color);
     background: var(--accent-color);
-    padding:30px;
+    padding:20px;
     border-radius:100px;
-    font-size:45px;
+    font-size:40px;
     transition: all 200ms ease-in-out;
     }
 
@@ -389,24 +389,94 @@ footer {
 
 /* Responsive */
 
-@media  (max-width:900px) {
+@media  (max-width:960px) {
 /* Navigation Bar */
 .log {
     visibility: hidden;
 }
-
 
 nav {
     padding: 10px 0;
 }
 
 nav li {
-    margin-left:15px;
+    margin-left:10px;
 }
 
 nav a {
-    font-size: 12px;
+    font-size:10px;
 }
 
+/* Header */
 
+main {
+    padding: 60px 0;
+}
+
+main h1 {
+    font-size: 45px;
+}
+
+main h2 {
+    font-size: 20px;
+}
+
+main a {
+    font-size: 10px;
+}
+/* 
+About me section */
+
+.grid {
+    grid-template-columns: 1fr;
+    grid-gap: 25px;
+}
+.about h3 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.about p {
+    font-size: 16px;
+}
+
+/* Get to know me section */
+.get-to-know {
+    padding:10px;
+}
+
+.get-to-know h2 {
+    font-size:30px;
+}
+
+.social-links a {
+    margin:0 20px;
+    padding:14px, 14px;
+    font-size:25px;
+    } 
+
+.social {
+    font-size: 16px;
+    padding:8px;
+}
+
+.description {
+    font-size: 14px;
+}
+
+/* Footer */
+.grid-3-columns {
+    grid-template-columns:1fr ;
+    grid-gap: 25px;
 } 
+
+.grid-3-columns h3  {
+    font-size: 16px;
+}
+
+.grid-3-columns p  {
+    font-size: 14px;
+}
+
+}
