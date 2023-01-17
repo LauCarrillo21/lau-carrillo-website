@@ -347,7 +347,7 @@ footer {
 
 .three-columns-resource {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap:15px;
     padding:15px;
 }
@@ -513,7 +513,7 @@ About me section */
 /* Resources */
 
 .resources-main{
-    padding: 10px;
+    padding:5px;
 }
 
 .three-columns-resource {
@@ -539,5 +539,6 @@ About me section */
     font-size:14px;
     padding:5px;
 }
+
 
 }
