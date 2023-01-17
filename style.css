@@ -503,4 +503,41 @@ About me section */
     width:150px;
 }
 
+
+/* Contact */
+
+.contact-link {
+    font-size: 18px;
+}
+
+/* Resources */
+
+.resources-main{
+    padding: 10px;
+}
+
+.three-columns-resource {
+    grid-template-columns: 1fr;
+    grid-gap:10px;
+    padding:10px;
+}
+
+.resource-card {
+    width:300px;
+    padding: 10px;
+} 
+
+.test {
+    width:200px;
+}
+
+.resource-title {
+    font-size: 16px;
+} 
+
+.rsc-button {
+    font-size:14px;
+    padding:5px;
+}
+
 }
