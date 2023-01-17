@@ -483,48 +483,24 @@ About me section */
 
 /* Blog */
 .four-columns-blog {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    display: grid;
-    grid-gap:15px;
-    padding:15px;
-}
-
-.blog-main{
-    background-color:var(--accent-color);
-    padding: 15px;
+    grid-template-columns: 1fr;
+    grid-gap:10px;
 }
 
 .blog-card {
-    background-color:var(--section-color);
-    border-radius:10px;
-    color:var(--text-light-color);
-    width:200px;
-    padding: 10px;
-    transition: all 200ms ease-in-out;
-}
-
-.blog-card:hover {
-    background-color:var(--accent-color);
-    cursor:pointer;
-    border:1px solid black;
+    padding: 5px;
 }
 
 .card-title {
-    letter-spacing:2px;
-    text-align: center;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .card-description {
-    text-align: center;
-    font-size:20px;
-    padding:5px;
+    font-size:16px;
 }
 
 .test {
-    width:180px;
-    border-radius:4px;
+    width:150px;
 }
-
 
 }
